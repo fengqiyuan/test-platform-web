@@ -1,0 +1,34 @@
+{
+  "name": "test-platform-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "preview": "vite preview --mode production"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "echarts": "^5.4.1",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "mockjs": "^1.1.0",
+    "pinia": "^2.0.27",
+    "qs": "^6.11.1",
+    "semantic-ui-css": "^2.5.0",
+    "vue": "^3.2.41",
+    "vue-echart": "^1.0.5",
+    "vue-router": "^4.1.6",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "del": "^6.0.0",
+    "vite": "^4.2.1",
+    "vite-plugin-mock": "^2.9.6"
+  }
+}
+

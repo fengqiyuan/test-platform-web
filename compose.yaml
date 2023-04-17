@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    image: test_platform_web
+    container_name: test_platform_web
+    stop_signal: SIGINT
+    restart: always
+    ports:
+      - "8000:80"
